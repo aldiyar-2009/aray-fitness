@@ -89,7 +89,7 @@ main{position:relative;z-index:2}
 
 /* Первый экран */
 .hero{position:relative;min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;padding:120px var(--pad) clamp(28px,5vw,60px);overflow:hidden}
-.hero__bg{position:absolute;inset:-6% 0;z-index:-2;background:url("../assets/img/hall.jpg") center/cover;filter:saturate(1.1) contrast(1.05);animation:kb 18s ease-in-out infinite alternate;will-change:transform}
+.hero__bg{position:absolute;inset:-6% 0;z-index:-2;background:url("../assets/img/hall.jpg?v=2") center/cover;filter:saturate(1.1) contrast(1.05);animation:kb 18s ease-in-out infinite alternate;will-change:transform}
 @keyframes kb{from{transform:scale(1.05) translateY(var(--py,0))}to{transform:scale(1.18) translateY(var(--py,0))}}
 .hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(11,13,11,.75) 0,rgba(11,13,11,.35) 35%,rgba(11,13,11,.92) 82%,var(--bg) 100%),linear-gradient(90deg,rgba(11,13,11,.8),transparent 70%)}
 .hero__eyebrow{font-family:var(--display);text-transform:uppercase;letter-spacing:.2em;font-size:clamp(11px,1.3vw,14px);color:var(--lime);margin-bottom:18px}
